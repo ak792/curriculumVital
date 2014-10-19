@@ -1,0 +1,118 @@
+body {
+	margin:0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+	margin:0px 0px 5px;
+	padding: 0px;
+	visibility: hidden;
+}
+
+#title-bar {
+	background-color: #58A9A7;
+	height: 50px;
+	padding: 10px 0px 10px 10px;
+	margin: 0px 0px 10px 0px;
+}
+
+#title {
+	height: 50px;
+	margin: 10px auto 0px;
+	position: relative;
+	width: 1100px;
+}
+
+.logo {
+	width: 298px;
+	height: 38px;
+}
+
+#container {
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	width: 1100px;
+	height: 700px;
+}
+
+#background {
+	background-color: white;
+
+}
+
+#visualization {
+	background-color: #E6F5FF;
+	width:  745px;
+	height: 600px;
+	float: left;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+#visualization-placeholder {
+	text-align: center;
+	margin: 294px 0px;
+	position: relative;
+}
+
+.height-label {
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.height-rect {
+	fill: #FFC3AB;
+}
+
+#dept-box {
+	background-color: #F8A7B0;
+	width:  255px;
+	height: 212px;
+	float: left;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 10px;
+}
+
+#dept-curr {
+	font-size: 12px;
+	font-weight: bold;
+	visibility: hidden;
+	float: left;
+}
+
+#dept-select {
+	visibility: hidden;
+}
+
+.dept-detail {
+	font-size: 13px;
+}
+
+#course-box {
+	background-color: #FFC3AB;
+	width:  255px;
+	height: 288px;
+	float: left;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 10px;
+	word-wrap: break-word;
+	overflow: auto;
+}
+
+.course-detail {
+	font-size: 13px;
+	margin: 0px 0px 3px 0px;
+}
+
+.course-node {
+	background-color: #A2E191;
+}
+
+.connecting-line {
+	stroke: #3039B3;
+    stroke-width: 2;
+}
